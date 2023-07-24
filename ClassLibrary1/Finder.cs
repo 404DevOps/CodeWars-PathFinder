@@ -3,10 +3,8 @@ using System.Linq;
 
 namespace PathFinder 
 {
-
     public class Finder
     {
-
         public static int PathFinder(string mazeString)
         {
             List<(int x, int y)> maze = GetCoordinates(mazeString);
